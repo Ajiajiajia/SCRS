@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+
+        <TextView
+            android:id="@+id/txt_dream_rain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text=">>>我想和你在成都的街头走一走"
+            android:textSize="16sp"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="15dp"
+            />
+        <View
+            android:id="@+id/view_deliver_rain"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_primary"
+            android:layout_below="@id/txt_dream_rain"/>
+
+
+        <TextView
+            android:id="@+id/txt_spring_rain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="春风十里不如你"
+            android:layout_alignLeft="@id/txt_dream_rain"
+            android:textSize="14sp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="15dp"
+            />
+
+</LinearLayout>

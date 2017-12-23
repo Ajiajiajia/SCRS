@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/heaijia/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/heaijia/Hy_Push/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_4abebe6df57a4ef72b7fd944ae079986acfb93e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/heaijia/.android/build-cache/fdd1089406f8121cb96db8c71cc518de3217fdfc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/heaijia/Hy_Push/app/build/intermediates/pre-dexed/debug/classes_1ee9d7efdb764625778637a02a1c32c51f4c37a4.jar" />
+    </item>
+
+</items>

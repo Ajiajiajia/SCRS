@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <FrameLayout
+        android:id="@+id/frame_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/llayout_tab_menu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/bg_frame_gray">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpage_menu_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </android.support.v4.view.ViewPager>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llayout_tab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llayout_tab_menu_sun"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="8dp"
+                android:id="@+id/img_tab_menu_sun"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/img_sun_selector"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/txt_tab_menu_sun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inspired "
+                android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llayout_tab_menu_cloud"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="8dp"
+                android:id="@+id/img_tab_menu_cloud"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/img_cloud_selector"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/txt_tab_menu_cloud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cloud "
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llayout_tab_menu_rain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="8dp"
+                android:id="@+id/img_tab_menu_rain"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/img_rain_selector"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_tab_menu_rain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Rain " />
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llayout_tab_menu_snow"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="8dp"
+                android:id="@+id/img_tab_menu_snow"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/img_snow_selector"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/txt_tab_menu_snow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Snow "
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_boost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text=">>>下次该怎么做"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"/>
+            <View
+                android:id="@+id/view_deliver"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_primary"
+                android:layout_below="@id/txt_boost"/>
+
+            <TextView
+                android:id="@+id/txt_sober"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="你不能再这样失去了"
+                android:layout_below="@id/txt_boost"
+                android:layout_alignLeft="@id/txt_boost"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

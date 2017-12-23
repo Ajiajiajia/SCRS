@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">NEUQerCC</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="msg_input_identifier">请输入oj账号/id/邮箱</string>
+    <string name="msg_input_password">请输入密码</string>
+
+
+
+    <!--主登陆界面-->
+    <string name="reminder_onlyu">你的专属小日历</string>
+    <string name="hint_account">手机号/邮箱</string>
+    <string name="hint_password">密码</string>
+    <string name="hint_login">登录</string>
+    <string name="hint_accout_again">请输入用户名</string>
+    <string name="hint_register_password">请输入密码</string>
+    <string name="hint_register_password_again">请再次确认密码</string>
+
+
+
+    <!--登陆界面的错误信息提示-->
+    <!--<string name="error_account_empty_illegal">账号不能为空</string>-->
+
+    <string name="error_account_empty_illegal">账号不可为空</string>
+    <string name="error_phone_number_illegal">手机号不合法</string>
+    <string name="error_password_min_limit">密码不得少于6位</string>
+    <string name="error_password_max_limit">密码不得多于16位</string>
+    <string name="dialog_wait_moment">请稍后</string>
+    <string name="toast_login_successful">登录成功</string>
+
+
+
+
+</resources>
