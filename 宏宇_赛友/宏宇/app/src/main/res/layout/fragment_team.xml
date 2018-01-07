@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/relayout_team_title"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp">
+        <TextView
+            android:id="@+id/txt_team_title"
+            style="@style/title_txt"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorAccent"
+            android:text="@string/organize_team" />
+        <ImageView
+            android:id="@+id/img_search_team"
+            android:layout_width="30dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_search"
+            android:layout_marginBottom="15dp"/>
+
+    </RelativeLayout>
+
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarlayout_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relayout_team_title">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/table_header_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp">
+
+        </android.support.design.widget.TabLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/appbarlayout_table"
+        >
+    </android.support.v4.view.ViewPager>
+
+
+    <Button
+        android:id="@+id/btn_establish_team"
+        android:layout_width="328dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17.5dp"
+        android:background="@drawable/bg_account_btn"
+        android:text="@string/txt_establish_team"
+        android:textColor="@color/text_white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

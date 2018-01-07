@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.abtion.neuqercc.main.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ly_tab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:elevation="4dp"
+        android:orientation="horizontal"
+        android:outlineProvider="bounds">
+
+        <LinearLayout
+            android:id="@+id/ly_tab_menu_home"
+            style="@style/tab_menu_item">
+
+            <ImageView
+                android:id="@+id/img_tab_menu_home"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/img_home_selector" />
+
+            <TextView
+                android:id="@+id/txt_tab_menu_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_bottom_home"
+                android:textColor="#9b9b9b" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_tab_menu_order"
+            style="@style/tab_menu_item">
+
+            <ImageView
+                android:id="@+id/img_tab_menu_order"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/img_team_selector" />
+
+            <TextView
+                android:id="@+id/txt_tab_menu_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_bottom_team" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_tab_menu_message"
+            style="@style/tab_menu_item">
+
+            <ImageView
+                android:id="@+id/img_tab_menu_message"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/img_message_selector" />
+
+            <TextView
+                android:id="@+id/txt_tab_menu_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_bottom_message" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/ly_tab_menu_mine"
+            style="@style/tab_menu_item">
+
+            <ImageView
+                android:id="@+id/img_tab_menu_mine"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/img_mine_selector" />
+
+
+
+            <TextView
+                android:id="@+id/txt_tab_menu_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tab_bottom_mine" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/frame_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/ly_tab_menu"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/bg_frame_gray"
+        android:elevation="0dp"
+        android:fitsSystemWindows="false">
+
+
+        <cn.abtion.neuqercc.widget.MainViewPager
+            android:id="@+id/vp_main_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </cn.abtion.neuqercc.widget.MainViewPager>
+
+    </FrameLayout>
+
+</RelativeLayout>

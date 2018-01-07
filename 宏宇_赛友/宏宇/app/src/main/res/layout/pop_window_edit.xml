@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_update_information"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_white"
+            >
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_edit_dialog"
+                android:layout_margin="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="资料编辑"
+                android:textSize="16sp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="30dp"
+                />
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_setting"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_white"
+            android:layout_marginTop="1px"
+            android:layout_marginBottom="1px"
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_dialog_setting"
+                android:layout_margin="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="账号设置"
+                android:textSize="16sp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="30dp"
+                />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_mine_team"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_white">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_team_dialog"
+                android:layout_margin="10dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的队伍"
+                android:textSize="16sp"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="30dp"
+                />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">NEUQerCC</string>
+    <string name="msg_input_identifier">请输入oj账号/id/邮箱</string>
+    <string name="msg_input_password">请输入密码</string>
+    <string name="test_sample">test</string>
+
+
+    <!--主活动页面-->
+    <string name="tab_bottom_home">首页</string>
+    <string name="tab_bottom_team">队伍</string>
+    <string name="tab_bottom_message">消息</string>
+    <string name="tab_bottom_mine">我的</string>
+    <!--登录页面-->
+    <string name="hint_account">账号</string>
+    <string name="hint_password">密码</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_register">注册</string>
+    <string name="txt_forget_password">忘记密码</string>
+
+    <string name="error_account_empty_illegal">账号不可为空</string>
+    <string name="error_phone_number_illegal">手机号不合法</string>
+    <string name="error_password_min_limit">密码不得少于6位</string>
+    <string name="error_password_max_limit">密码不得多于16位</string>
+    <string name="dialog_wait_moment">请稍后</string>
+    <string name="toast_login_successful">登录成功</string>
+
+
+    <!--注册、修改密码页面-->
+    <string name="hint_register_phone">请输入手机号</string>
+    <string name="hint_captcha">请输入验证码</string>
+    <string name="hint_input_password">请输入6-16位数字、字母密码</string>
+    <string name="hint_repeat_password">请再次输入密码</string>
+    <string name="hint_new_password">设置新密码</string>
+    <string name="btn_get_captcha">获取验证码</string>
+    <string name="btn_next">下一步</string>
+    <string name="btn_return_login">返回登录</string>
+    <string name="btn_over">完成</string>
+
+    <string name="toast_register_successful">注册成功</string>
+    <string name="toast_update_successful">修改成功</string>
+    <string name="toast_send_successful">发送成功,请注意查收验证码</string>
+    <string name="error_phone_number_empty_illegal">手机号不得为空</string>
+    <string name="error_captcha_empty_illegal">验证码不可为空</string>
+    <string name="error_captcha_number_illegal">验证码不正确</string>
+    <string name="error_passwords_inconsistent">两次输入密码不一致</string>
+
+
+    <!--home页面-->
+    <string name="title_competition">赛事</string>
+    <string name="contest_list_title">数学建模</string>
+    <string name="contest_list_summary">前端、热血、创意</string>
+    <string name="contest_list_time_upper">比赛时间：2017.10.15-2017.10.18</string>
+    <string name="contest_list_time_lower">报名时间：2017.10.15-2017.10.18</string>
+    <string name="btn_search_team">寻找队伍</string>
+    <string name="edit_search_contest">请输入查询的队伍名</string>
+    <string name="search_contest_null">请输入比赛关键字</string>
+
+
+
+
+    <!--个人页面-->
+    <string name="title_update_information">资料编辑</string>
+    <string name="txt_edit">编辑</string>
+    <string name="txt_good_at_direction">擅长方向</string>
+    <string name="txt_good_at_field">擅长领域</string>
+    <string name="txt_my_team">我的队伍</string>
+    <string name="txt_student_name">姓名</string>
+    <string name="txt_phone_number">联系方式</string>
+    <string name="txt_profession">专业</string>
+    <string name="txt_grade">年级</string>
+    <string name="txt_student_id">学号</string>
+    <string name="txt_sex">性别</string>
+    <string name="txt_honor_wall">荣誉墙</string>
+    <string name="txt_account_setting">账号设置</string>
+    <string name="dialog_add_honor">添加证书及奖项</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="hint_student_name">姓名</string>
+    <string name="hint_input_name">输入姓名</string>
+    <string name="hint_input_phone_number">输入手机号码</string>
+    <string name="hint_input_profession">输入专业</string>
+    <string name="hint_input_id">输入学号</string>
+    <string name="txt_mine_setting">设置</string>
+    <string name="txt_update_password">修改密码</string>
+    <string name="txt_current_account">当前账号</string>
+    <string name="txt_feedback">意见反馈</string>
+    <string name="txt_about_us">关于我们</string>
+    <string name="btn_sign_out">退出登录</string>
+    <string name="title_setting">设置</string>
+    <string name="txt_old_password">旧密码</string>
+    <string name="txt_new_password">新密码</string>
+    <string name="txt_repeat_password">新密码</string>
+    <string name="hint_input_old_password">输入旧密码</string>
+    <string name="hint_input_new_password">输入新密码</string>
+    <string name="hint_input_repeat_password">再次输入新密码</string>
+    <string name="btn_confirm_changes">确认修改</string>
+    <string name="btn_submit">提交</string>
+    <string name="hint_please_input_question">请描述遇到的问题</string>
+    <string name="title_certificate_editing">证书编辑</string>
+    <string name="btn_confirm_editing">编辑完成</string>
+    <string name="txt_event_name">赛事名称</string>
+    <string name="txt_get_time">获得时间</string>
+    <string name="dialog_take_photo">拍照</string>
+    <string name="dialog_from_album">从相册中选取</string>
+    <string name="title_mine_team">我的队伍</string>
+    <string name="txt_mine_team_number">人数：</string>
+    <string name="txt_mine_team_position">组内职务：</string>
+    <string name="txt_version_number">版本号1.0.0</string>
+    <string name="txt_computer_communication">计算机与通信工程学院</string>
+    <string name="txt_slogan">石可破也，而不可夺坚；丹可磨也，而不可夺赤</string>
+    <string name="btn_edit_team_information">修改信息</string>
+    <string name="title_edit_team_information">编辑信息</string>
+    <string name="title_over">完成</string>
+    <string name="toast_lack_information">请输入完整信息</string>
+    <string name="toast_edit_successful">编辑成功</string>
+    <string name="toast_password_error">密码错误</string>
+    <string name="toast_commit_successful">提交成功</string>
+    <string name="toast_feedback_empty">请填写反馈内容</string>
+    <string name="dialog_if_sign_out">是否退出当前账号?</string>
+    <string name="title_honor_information">荣誉信息</string>
+    <string name="dialog_btn_confirm">确认</string>
+    <string name="dialog_btn_cancel">取消</string>
+
+
+    <string name="btn_return">返回</string>
+
+    <!--组对界面-->
+    <string name="find_competition_name">查找比赛名称</string>
+    <string name="organize_team">组队</string>
+    <string name="home_page">赛事信息</string>
+    <string name="message">聊天</string>
+    <string name="txt_want_join">预参加比赛或项目</string>
+    <string name="txt_contest_name">数学建模比赛</string>
+    <string name="txt_team_member">团队成员</string>
+    <string name="txt_captain">队长</string>
+    <string name="txt_member_name">某某某</string>
+    <string name="txt_adept">擅长</string>
+    <string name="txt_math_power_up">数学编程能力强</string>
+    <string name="txt_team_introduce">队伍介绍</string>
+    <string name="txt_team_true_name">地表最强队</string>
+    <string name="txt_team_name">队伍名称</string>
+    <string name="title_establish_team">创建队伍</string>
+    <string name="title_team_information">队伍信息</string>
+    <string name="btn_enter_team">加入队伍</string>
+    <string name="txt_team_member_adept">目标队员擅长</string>
+    <string name="edit_team_name">请输入队伍名称</string>
+    <string name="edit_want_join">请输入想要参加的比赛</string>
+    <string name="chk_html">前端</string>
+    <string name="txt_team_declaration">队伍宣言</string>
+    <string name="txt_finish">完成</string>
+    <string name="btn_invite_friend">邀请好友</string>
+    <string name="txt_establish_team">创建队伍</string>
+    <string name="txt_if_want_join_team">确认加入该队吗？</string>
+    <string name="txt_dialog_content">确认后我们会将您的信息发送给队长</string>
+    <string name="txt_cancel">取消</string>
+    <string name="txt_dialog_confirm">确认</string>
+    <string name="edit_search_team">请输入查询的队伍名</string>
+    <string name="txt_search_result">搜索结果</string>
+    <string name="title_confirm">确认</string>
+    <string name="search_team_null">请输入队伍关键字</string>
+    <string name="establish_team_success">创建队伍成功</string>
+
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#DEDEDE</color>
+    <color name="colorAccent">#ff6c61</color>
+    <!--<color name="colorAccent">#FF3955</color>-->
+
+
+    <!--文字颜色-->
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_black">#000000</color>
+    <color name="text_warning">#ff6464</color>
+
+    <!--背景颜色-->
+    <color name="bg_gray">#f0f0f3</color>
+    <color name="bg_black">#000000</color>
+    <color name="frame_gray">#aaaaaa</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="bg_frame_gray">#f2f2f2</color>
+    <color name="bg_btn_red">#df5748</color>
+
+
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#959595</color>
+    <color name="divider">#DEDEDE</color>
+    <color name="title">#4A4A4A</color>
+    <color name="subtitle">#9B9B9B</color>
+
+    <color name="text_no_selected">#4d4d4d</color>
+    <color name="progress_high">#1CC9CC</color>
+    <color name="progress_medium">#FFBE14</color>
+    <color name="black_primary">#212121</color>
+    <color name="gray_primary">#dbd8d8</color>
+    <color name="trans_black">#32000000</color>
+    <color name="search_background">#eeeeee</color>
+    <color name="search_stroke">#707070</color>
+    <color name="text_gray">#b2b2b2</color>
+
+</resources>

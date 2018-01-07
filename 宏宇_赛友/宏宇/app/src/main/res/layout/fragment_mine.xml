@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="@color/bg_gray">
+
+
+    <cn.abtion.neuqercc.widget.GradientScrollView
+        android:id="@+id/scroll_mine_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/mine_header_bg"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@drawable/bg_mine_title"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/mine_information"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_below="@id/mine_header_bg"
+                android:background="@color/text_white">
+
+                <ImageView
+                    android:id="@+id/img_mine_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="92dp"
+                    android:layout_marginTop="24dp" />
+
+
+                <View
+                    android:id="@+id/mine_dividing_one"
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/bg_black" />
+
+                <View
+                    android:id="@+id/mine_dividing_two"
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@id/mine_dividing_one"
+                    android:background="@color/bg_black" />
+
+                <TextView
+                    android:id="@+id/mine_direction"
+                    style="@style/mine_txt_information"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/mine_dividing_one"
+                    android:text="@string/txt_good_at_direction" />
+
+                <TextView
+                    android:id="@+id/txt_mine_good_at"
+                    style="@style/mine_txt_information"
+                    android:layout_alignLeft="@+id/mine_direction"
+                    android:layout_below="@id/mine_direction"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/test_sample" />
+
+                <RelativeLayout
+                    android:id="@+id/rlayout_mine_team"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/mine_dividing_two">
+
+                    <TextView
+                        android:id="@+id/mine_team"
+                        style="@style/mine_txt_information"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/txt_my_team" />
+
+                    <TextView
+                        android:id="@+id/txt_mine_team_num"
+                        style="@style/mine_txt_information"
+                        android:layout_alignLeft="@+id/mine_team"
+                        android:layout_below="@id/mine_team"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/test_sample" />
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/mine_avatar"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignBottom="@id/mine_information"
+                android:layout_marginBottom="23dp"
+                android:layout_marginLeft="16dp" />
+
+            <TextView
+                android:id="@+id/txt_mine_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/mine_information"
+                android:layout_marginBottom="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_toRightOf="@id/mine_avatar"
+                android:text="@string/test_sample"
+                android:textColor="@color/text_white"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:id="@+id/mine_phone"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/mine_information"
+                android:layout_marginTop="6dp"
+                android:background="@color/bg_white">
+
+                <ImageView
+                    android:id="@+id/ic_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/ic_mine_name" />
+
+                <ImageView
+                    android:id="@+id/ic_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/ic_name"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="6dp"
+                    android:src="@drawable/ic_mine_phone" />
+
+
+                <TextView
+                    android:id="@+id/txt_mine_name"
+                    style="@style/mine_txt_information"
+                    android:layout_alignBottom="@+id/ic_name"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/ic_name"
+                    android:text="@string/test_sample" />
+
+
+                <TextView
+                    android:id="@+id/txt_mine_phone_number"
+                    style="@style/mine_txt_information"
+                    android:layout_alignBottom="@id/ic_phone"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/ic_phone"
+                    android:text="@string/test_sample" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/mine_message"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_below="@id/mine_phone"
+                android:layout_marginTop="6dp"
+                android:background="@color/bg_white">
+
+                <TextView
+                    android:id="@+id/mine_profession"
+                    style="@style/mine_txt_information"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="13dp"
+                    android:text="@string/txt_profession" />
+
+                <TextView
+                    android:id="@+id/mine_grade"
+                    style="@style/mine_txt_information"
+                    android:layout_alignLeft="@id/mine_profession"
+                    android:layout_below="@id/mine_profession"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/txt_grade" />
+
+                <TextView
+                    android:id="@+id/mine_id"
+                    style="@style/mine_txt_information"
+                    android:layout_alignLeft="@id/mine_profession"
+                    android:layout_below="@id/mine_grade"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/txt_student_id" />
+
+
+                <TextView
+                    android:id="@+id/txt_mine_major"
+                    style="@style/mine_txt_information"
+                    android:layout_alignBottom="@id/mine_profession"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/mine_profession" />
+
+                <TextView
+                    android:id="@+id/txt_mine_grade"
+                    style="@style/mine_txt_information"
+                    android:layout_alignBottom="@id/mine_grade"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/mine_grade" />
+
+                <TextView
+                    android:id="@+id/txt_mine_student_id"
+                    style="@style/mine_txt_information"
+                    android:layout_alignBottom="@id/mine_id"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/mine_id" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mine_honor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/mine_message"
+                android:layout_marginTop="6dp"
+                android:background="@color/bg_white">
+
+                <TextView
+                    android:id="@+id/mine_txt_honor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/txt_honor_wall"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="230dp"
+                    android:layout_height="1dp"
+                    android:layout_alignLeft="@id/mine_txt_honor"
+                    android:layout_below="@id/mine_txt_honor"
+                    android:background="@color/bg_black" />
+
+
+                <cn.abtion.neuqercc.widget.HonorGridView
+                    android:id="@+id/mine_grid_honor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/mine_txt_honor"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="10dp"
+                    android:horizontalSpacing="5dp"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="5dp">
+
+                </cn.abtion.neuqercc.widget.HonorGridView>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </cn.abtion.neuqercc.widget.GradientScrollView>
+
+
+    <RelativeLayout
+        android:id="@+id/rlayout_mine_title"
+        style="@style/title_txt"
+        android:background="#00000000">
+
+        <TextView
+            android:id="@+id/txt_team_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|bottom"
+            android:text="@string/tab_bottom_mine"
+            android:textColor="#00000000"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/title_mine_edit"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_add" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

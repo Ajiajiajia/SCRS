@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt_mine_update_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/bg_white"
+        android:drawableRight="@drawable/ic_back_arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/txt_update_password"
+        android:textColor="@color/text_black"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/rlayout_mine_current_account"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/bg_white"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_current_account"
+            android:textColor="@color/text_black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/txt_current_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/text_black"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_mine_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/bg_white"
+        android:drawableRight="@drawable/ic_back_arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/txt_feedback"
+        android:textColor="@color/text_black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txt_mine_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/bg_white"
+        android:drawableRight="@drawable/ic_back_arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/txt_about_us"
+        android:textColor="@color/text_black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_mine_sign_out"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/bg_white"
+        android:text="@string/btn_sign_out"
+        android:textColor="@color/text_warning"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

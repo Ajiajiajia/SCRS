@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.abtion.neuqercc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".NEUQerCCApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".account.activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".account.activities.RegisterActivity" />
+        <activity android:name=".account.activities.UpdatePasswordActivity" />
+        <activity
+            android:name=".main.MainActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".home.activities.CompetitionActivity" />
+        <activity android:name=".home.activities.SearchContestActivity" />
+        <!--<activity android:name=".home.activities.TestActivity" />-->
+        <activity android:name=".home.activities.SearchContestResultActivity" />
+        <activity android:name=".mine.activities.UpdateInformationActivity" />
+        <activity
+            android:name=".mine.activities.SettingActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".mine.activities.FeedbackActivity" />
+        <activity android:name=".mine.activities.MineUpdatePasswordActivity" />
+        <activity android:name=".mine.activities.HonorUpdateActivity" />
+        <activity android:name=".mine.activities.MineTeamListActivity" />
+        <activity android:name=".mine.activities.AboutUsActivity" />
+        <activity android:name=".team.activities.TeamInformationActivity" />
+        <activity android:name=".team.activities.EstablishTeamActivity" />
+        <activity android:name=".team.activities.EstablishTeamFinishActivity" />
+        <activity android:name=".mine.activities.MineTeamIfromationActivity" />
+        <activity android:name=".mine.activities.UpdateTeamInformationActivity"/>
+        <activity android:name=".mine.activities.HonorInformationActivity"/>
+        <activity android:name=".team.activities.SearchTeamActivity"/>
+        <activity android:name=".team.activities.SearchTeamResultActivity"
+            android:launchMode="singleTask"/>
+
+    </application>
+
+</manifest>

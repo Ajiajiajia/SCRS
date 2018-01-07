@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/llayout_team_name"
+                android:layout_width="328dp"
+                android:layout_height="46.5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_input_box"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <ImageView
+                    android:id="@+id/img_before_team_name"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/ic_before_team_name" />
+
+                <TextView
+                    android:id="@+id/txt_team_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="13dp"
+                    android:textColor="@color/text_black"
+                    android:textSize="18sp" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_contest_name"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llayout_team_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txt_want_join"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/txt_want_join"
+                    android:textColor="@color/text_black"
+                    android:textSize="16dp" />
+
+
+                <TextView
+                    android:id="@+id/txt_contest_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_want_join"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/text_black"
+                    android:textSize="16dp" />
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/txt_team_introduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/llayout_team_name"
+                android:layout_below="@id/cv_contest_name"
+                android:layout_marginTop="7dp"
+                android:text="@string/txt_team_introduce"
+                android:textSize="16sp" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/llayout_team_introduce"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_team_introduce"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/bg_input_box">
+
+                <TextView
+                    android:id="@+id/txt_team_declaration"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp"
+                    android:text="  安居客健康的年份加拿大尽可能吃点吧夫奥卡福和骄傲登记单健康大粑粑而返回iOS城内的就看看八度发货的农村拉不动"
+                    android:textColor="@color/text_black"
+                    android:textSize="18sp" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/txt_team_member_introduce"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/llayout_team_introduce"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:text="成员介绍"
+                android:textSize="16sp">
+
+            </TextView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cv_member_introduce"
+                android:layout_width="328dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/txt_team_member_introduce"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recylerview_team_member"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_gray">
+
+
+                </android.support.v7.widget.RecyclerView>
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <Button
+        android:id="@+id/btn_join_team"
+        android:layout_width="300dp"
+        android:layout_height="36dp"
+        android:background="@drawable/bg_account_btn"
+        android:text="@string/btn_enter_team"
+        android:textColor="@color/text_white"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+
+
+</RelativeLayout>

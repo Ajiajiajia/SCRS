@@ -12,6 +12,11 @@ public class Config {
 
 
     /**
+     * 列表一页的item的数量
+     */
+    public static final int size=20;
+
+    /**
      * tab指示器长度
      */
     public static final int TAB_INDICATOR_LENGTH=65;
